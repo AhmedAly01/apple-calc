@@ -1,0 +1,17 @@
+.frame {
+  position: relative;
+  top: 15px;
+  padding: 5px 32px;
+  width: 336px;
+  height: 64px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.mini-display {
+  word-wrap: break-word;
+  color: gray;
+  font-size: 28px;
+  text-align: left;
+}
+

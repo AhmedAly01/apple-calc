@@ -1,0 +1,25 @@
+<div id="keypad">
+  <button class="special-button" (click)="print('C')">C</button>
+  <button class="special-button" (click)="sign(); eval(); print('=')">+/-</button>
+  <button class="special-button" (click)="percent(); eval(); print('=')" >%</button>
+  <button class="op-button" (click)="print('⌫')">&#9003;</button>
+  <button class="special-button" (click)="reciprocal(); eval(); print('=')">¹⁄ₓ</button>
+  <button class="special-button" (click)="squared(); eval(); print('=')" >x&#178;</button>
+  <button class="special-button" (click)="sqrt(); eval(); print('=')" >&#8730;x</button>
+  <button class="op-button" (click)="divide(); print('÷') ">&#247;</button>
+  <button class="num-button" (click)="print('7')">7</button>
+  <button class="num-button" (click)="print('8')">8</button>
+  <button class="num-button" (click)="print('9')">9</button>
+  <button class="op-button" (click)="multiply(); print('×')">&#215;</button>
+  <button class="num-button" (click)="print('4')">4</button>
+  <button class="num-button" (click)="print('5')">5</button>
+  <button class="num-button" (click)="print('6')">6</button>
+  <button class="op-button" (click)="sub(); print('-')">-</button>
+  <button class="num-button" (click)="print('1')">1</button>
+  <button class="num-button" (click)="print('2')">2</button>
+  <button class="num-button" (click)="print('3')">3</button>
+  <button class="op-button" (click)="add(); print('+')">+</button>
+  <button class="zero-button" (click)="print('0')">0</button>
+  <button class="num-button" (click)="print('.')">.</button>
+  <button class="op-button" (click)="eval(); print('=')">=</button>
+</div>

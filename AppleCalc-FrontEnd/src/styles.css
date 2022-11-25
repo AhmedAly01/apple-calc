@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+h1 {
+  color: rgba(255, 149, 0, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 300%;
+}
+h2, h3 {
+  color: rgb(192, 192, 190);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 200%;
+}
+p {
+  margin: 10px 0 10px 0;
+}
+body {
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background: rgb(60, 60, 60) url("background.jpg") no-repeat;
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}

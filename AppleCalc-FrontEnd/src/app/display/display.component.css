@@ -1,0 +1,16 @@
+.frame {
+  padding: 5px 32px;
+  width: 336px;
+  height: 140px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.display {
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  color: white;
+  font-size: 56px;
+  text-align: right;
+}
+
